@@ -1,0 +1,25 @@
+# Ignore build directories
+/Debug/
+/Release/
+/build/
+
+# Ignore IDE-specific files
+.project
+.cproject
+.settings/
+
+# Ignore build artifacts
+*.bin
+*.hex
+*.elf
+*.map
+*.o
+
+# Ignore object files and other intermediate files
+*.obj
+*.d
+*.a
+
+# Ignore backup files
+*~
+*.bak
